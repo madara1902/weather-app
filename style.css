@@ -19,12 +19,12 @@ h1 {
 .icon {
 	display:flex;
 	justify-content:center;
-	margin-top: 350px;
+	margin-top: 50px;
 }
 .content {
 	display:flex;
 	justify-content:center;
-	padding-top: 50%;
+	padding-top: 20%;
 }
 
 .card:hover{
