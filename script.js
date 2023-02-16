@@ -4,6 +4,10 @@ const text = document.querySelector('.card-text')
 const button = document.getElementById('btn')
 const icon = document.querySelector('.icon')
 
+
+header('Access-Control-Allow-Origin: *')
+header('Access-Control-Allow-Headers: *')
+
 button.addEventListener('click', function(){
 	const key = '4484bf48f3c94a38b0e114536231402'
 	fetch(`http://api.weatherapi.com/v1/current.json?key=${key}&q=${input.value}&aqi=yes}`, {
