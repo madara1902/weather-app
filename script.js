@@ -7,6 +7,7 @@ const icon = document.querySelector('.icon')
 
 header('Access-Control-Allow-Origin: *')
 header('Access-Control-Allow-Headers: *')
+header('Access-Control-Allow-Methods: *')
 
 button.addEventListener('click', function(){
 	const key = '4484bf48f3c94a38b0e114536231402'
